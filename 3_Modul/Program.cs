@@ -1,5 +1,4 @@
-﻿using _3_Modul;
-using _3_Modul.Lesson_1__Delegate_.LessonTask;
+﻿using _3_Modul.Lesson_2__Event_.LessonTask;
 
 namespace _3_Modul
 {
@@ -7,9 +6,10 @@ namespace _3_Modul
     {
         static void Main(string[] args)
         {
-            Lesson_1 lesson = new();
-            Lesson_1.Main1();
-
+            /* Lesson_1 lesson = new();
+             Lesson_1.Main1();*/
+             Lesson_2 lesson = new();
+             Lesson_2.Main2();
         }
     }
 }

@@ -22,8 +22,6 @@ namespace _3_Modul.Lesson_1__Delegate_.LessonTask
             //Vazifa_1();
             Vazifa_2();
 
-
-
         }
         public static void Vazifa_1()
         {
@@ -40,10 +38,7 @@ namespace _3_Modul.Lesson_1__Delegate_.LessonTask
             MaxMin.Start(new List<int> { 4, 8, 1, 6, 74, 54, 12, 0, 68 });
         }
 
-
-
     }
-
 
     static class MyClass
     {
