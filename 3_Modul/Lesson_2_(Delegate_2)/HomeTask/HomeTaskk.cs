@@ -1,4 +1,6 @@
-﻿namespace _3_Modul.Lesson_2__Event_.HomeTask
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace _3_Modul.Lesson_2__Event_.HomeTask
 {
     public delegate double Mathh(Double a);
     public class HomeTaskk
@@ -57,23 +59,8 @@
             Predicate<int> number = num => num.Equals(1);
             Console.WriteLine(number(4554));
             Predicate<Array> arr = k => k.IsReadOnly;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            //Dictionary
+            Dictionary<string ,int> dict = new Dictionary<string ,int>();
 
 
         }

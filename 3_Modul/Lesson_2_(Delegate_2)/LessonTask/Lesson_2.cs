@@ -13,13 +13,10 @@ namespace _3_Modul.Lesson_2__Event_.LessonTask
             // Lessonn();
             HomeTaskk Homework = new();
             HomeTaskk.Home();
-
-            
         }
 
         public static void Lessonn()
         {
-
             Console.WriteLine("Lesson 2");
             // LambdaExpation
             Console.Write("LambdaExpation : ");
