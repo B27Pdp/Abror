@@ -1,5 +1,6 @@
 ﻿using _3_Modul.Lesson_3__Event_.HomeTask._1_vazifa;
 using _3_Modul.Lesson_3__Event_.HomeTask._2_vazifa;
+using _3_Modul.Lesson_3__Event_.Mafiya;
 using _3_Modul.Lesson_3__Event_.Try_end_Catch._1_vazifa;
 using _3_Modul.Lesson_3__Event_.Try_end_Catch._2_vazifa;
 using System.ComponentModel;
@@ -15,7 +16,12 @@ namespace _3_Modul.Lesson_3__Event_.LessonTask
         {
             // vazifa_2();
             //TryCatchVazifa_2();
-            vazifa_1();
+            //vazifa_1();
+
+            /*Boss boss= new Boss();
+            Asisan asisan= new();
+            boss.Order += asisan.Task;
+            boss.strart();*/
 
         }
 
