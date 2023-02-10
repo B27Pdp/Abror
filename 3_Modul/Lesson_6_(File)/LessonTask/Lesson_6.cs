@@ -13,9 +13,6 @@ namespace _3_Modul.Lesson_6__File_.LessonTask
         {
             //vazifa_1();  
             //vazifaFul();  
-
-
-            
             SearchFilesAndDirectories();
         }
         public void vazifa_1()
@@ -28,7 +25,6 @@ namespace _3_Modul.Lesson_6__File_.LessonTask
             FileTest test = new FileTest();
             test.FileStart2();
         }
-
         public  void SearchFilesAndDirectories()
         {
             string rootDirectory = @"C:\Users\VICTUS";
@@ -42,6 +38,5 @@ namespace _3_Modul.Lesson_6__File_.LessonTask
             }
             Console.WriteLine(readFile);
         }
-
     }
 }
