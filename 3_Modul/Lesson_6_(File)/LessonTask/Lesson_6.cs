@@ -8,11 +8,14 @@ using System.Threading.Tasks;
 namespace _3_Modul.Lesson_6__File_.LessonTask
 {
     internal class Lesson_6
-    {
-        public void Main_6()
+    {        
+        public void Main_6()  
         {
-            //vazifa_1();
-            //vazifaFul();
+            //vazifa_1();  
+            //vazifaFul();  
+
+
+            
             SearchFilesAndDirectories();
         }
         public void vazifa_1()
