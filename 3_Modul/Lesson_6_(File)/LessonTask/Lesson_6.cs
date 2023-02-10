@@ -36,6 +36,11 @@ namespace _3_Modul.Lesson_6__File_.LessonTask
 
             Console.WriteLine("Search results:");
             FileTest.SearchFilesAndDirectories(rootDirectory, searchText);
+            using (StreamReader read = File.OpenText(files[0].FullName))
+            {
+                readFile = read.ReadToEnd();
+            }
+            Console.WriteLine(readFile);
         }
 
     }
